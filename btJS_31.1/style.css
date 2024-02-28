@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+
+body {
+    background-color: rgb(177, 181, 185);
+    border: none;
+    outline: none;
+    font-family: Inter;
+
+}
+
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.form-input {
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 3px 4px rgb(39, 34, 34);
+    background-color: transparent;
+
+}
+
+.form-title {}
+
+.form-title p {
+    font-size: 20px;
+    font-weight: 800;
+    text-transform: uppercase;
+    text-align: center;
+    color: rgb(38, 39, 40);
+}
+
+.form-top {
+    width: 100px;
+}
+
+.input-top {
+    display: flex;
+    margin: 20px;
+}
+
+input[type=text] {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid black;
+    margin-left: 20px;
+
+}
+
+.form-center {}
+
+.btn-marth {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    text-align: center;
+    margin: 0px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(226, 231, 234);
+
+}
+
+.btn-marth:hover {
+    background-color: rgb(71, 240, 240);
+    box-shadow: 0 3px 3px rgb(54, 54, 54);
+}
+
+.form-bottom {
+    margin: 30px 20px;
+
+}
